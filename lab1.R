@@ -17,8 +17,7 @@ x <- seq(30,95,1)
 qqplot(qt(ppoints(250), df = 5), x, xlab = "Q-Q plot for t dsn")
 qqline(x)
 
-## DALY
-
+## DALYs
 DALY
 tf1 <- is.na(DALY)
 summary(DALY)
@@ -81,8 +80,6 @@ Eland1<- Eland[!No_surface_water]
 Eland2<- Eland[Desert]
 
 Eland3 <- Eland[High_Population_Density]
-
-
 
 EPI_South_Asia <- EPI[GEO_subregion == "South Asia"]
 
